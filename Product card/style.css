@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: #e6e6e6;
+    justify-content: center;
+}
+.container{
+    max-width: flex;
+    max-width: 720px;
+    justify-content: space-between;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+.container .box.two .image{
+    width: 450px;
+    height: 280px;
+}
+.box.two .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.container .box.one{
+    padding: 35px 5px 0 35px;
+}
+.box.two .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.box.one .details .topic{
+    font-size: 30px;
+    font-weight: 500;
+}
+.box.one .details p{
+    color: #737373;
+    font-size: 13px;
+    font-weight: 500;
+}
+.box.one .details .rating{
+    color: #fd9bb0;
+}
+.box.one .details .price-box{
+    margin-top: 16px;
+}
+.details .price-box .discount{
+    font-size: 20px;
+    color: #737373;
+    margin: 10px 0 0 12px;
+    position: relative;
+}
+.price-box .discount::before{
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100px;
+    background: #737373;
+    top: 50%;
+    left: -8px;
+}
+.details .price-box .price{
+    color: #fc6989;
+    font-size: 30px;
+}
+.border.one .button1{
+    margin-top: 55px;
+}
+.box.one .button1 button{
+    outline: none;
+    background: #00e6e6;
+    padding: 8px 16px;
+    color: #fff;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 500px;
+    border: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.box.one .button1 button:hover{
+    transform: scale(0.98);
+}
+.container .box.two .image-box{
+    position: relative;
+    text-align: right;
+    right: 0;
+    bottom: 32px;
+}
+.box.two .info{
+    margin: 0 35px 0 0;
+}
+.box.two .info .brand{
+    font-size: 17px;
+    font-weight: 600;
+    color: #066e12;
+}
+.box.two .info .name{
+    font-size: 20px;
+    font-weight: 500;
+    color: #222121;
+}
+.box.two .info .shipping{
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+}
+.box.two .info .button2{
+    margin: 17px 0;
+}
+.box.two .info .button2 button{
+    outline: none;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+    background: transparent;
+}
